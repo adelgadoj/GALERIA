@@ -35,7 +35,7 @@
         </div>
     <?php
     // Conectarse a la base de datos
-    $db = mysqli_connect("localhost:3307", "User_alex", "123456", "galeria");
+    $db = mysqli_connect("192.168.1.7:3307", "user_prueba", "123456", "galeria");
     // Consultar todas las imágenes de la base de datos
     $result = mysqli_query($db, "SELECT * FROM images");
     // Recorrer cada imagen y mostrarla en la página web
