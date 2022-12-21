@@ -1,7 +1,7 @@
 <?php
 // Conexión a la base de datos
-$host = "localhost:3307";
-$user = "User_alex";
+$host = "192.168.1.7:3307";
+$user = "user_prueba";
 $password = "123456";
 $database = "galeria";
 $conn = mysqli_connect($host, $user, $password, $database);
